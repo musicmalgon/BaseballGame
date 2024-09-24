@@ -27,7 +27,6 @@ public class Main {
                         System.out.print("난이도를 입력하세요: ");
                         count = sc.nextInt();
                         int[] answer = ans.createAns(count);
-                        System.out.println(answer[0]+" "+answer[1]+" "+answer[2]);
                         System.out.println("정답 생성 완료");
                         smallLoop:
                         while (true) {
